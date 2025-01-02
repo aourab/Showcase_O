@@ -1,0 +1,100 @@
+@import url('https://fonts.cdnfonts.com/css/delaney-emilia');
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 90px;
+    height: 40px;
+    margin-right: 5%;
+}
+
+.navbar .logo h1 {
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+}
+
+.navbar .nav-links {
+    margin-right: 5%;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .nav-links a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: #555;
+    transition: color 0.1s;
+}
+
+.navbar .nav-links a:hover {
+    color: #000;
+}
+
+/* Main Content Styles */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 90vh;
+    text-align: left;
+    
+    background-color: #fdfdf5;
+}
+
+.main .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.main .museum {
+    font-size: 48px;
+    font-family: 'Georgia', serif;
+    font-weight: normal;
+    color: #d45b5b;
+    margin-left: 5%;
+    margin-top: 0;
+}
+
+.main .subtitle {
+    font-family: 'Didot';
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 20px 0;
+    margin-left: 5%;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
