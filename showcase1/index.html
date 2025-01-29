@@ -3,34 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ourab's Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel= stylesheet href="style.css">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo">
-            <img src="o-crown-logo.png" alt="Logo">
-            
+    <header>
+        <h1>Brush & Beyond | Ourab's Artworks</h1>
+    </header>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (1).jpg" alt="Art 1" loading="lazy">
+            <div class="caption">Graphite on paper – Anatomical study of the human leg bones.</div>
         </div>
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#story">Background</a>
-            <a href="#science">Acheivemtns</a>
-            <a href="Gallery/index.html">Gallery of art & Violin</a>
-            <a href="#Violin">The story of High Voltage</a>
-            
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (2).jpg" alt="Art 2" loading="lazy">
+            <div class="caption">Watercolor on paper; European Roller Bird</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (3).jpg" alt="Art 3" loading="lazy">
+            <div class="caption">Acrylic On Canvas; Beduines Moving Through the desert</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (4).jpg" alt="Art 4" loading="lazy">
+            <div class="caption">Acrylic on paper; The Wet Crow </div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (5).jpg" alt="Art 5" loading="lazy">
+            <div class="caption">Opaque color on paper; Still Life</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (6).jpg" alt="Art 6" loading="lazy">
+            <div class="caption">Watercolor on paper – Two pigeons by the water’s edge</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (7).jpg" alt="Art 7" loading="lazy">
+            <div class="caption">Based on Jainul Abedin's Painting; Watercolor on paper – Santals On Their Way to Work</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (8).jpg" alt="Art 8" loading="lazy">
+            <div class="caption">Acrylic on paper – A rich still life with a bottle, glass, and drapery</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (18).jpg" alt="Art 9" loading="lazy">
+            <div class="caption">Oil on canvas – A still life of a lamb's head on a plate, evoking classical realism.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (10).jpg" alt="Art 10" loading="lazy">
+            <div class="caption">Based on an Australian Work; Watercolor on paper – An elderly woman tending to her cow in the fields.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (11).jpg" alt="Art 11" loading="lazy">
+            <div class="caption">Watercolor on paper – A still life</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (12).jpg" alt="Art 12" loading="lazy">
+            <div class="caption">Ink and watercolor on paper – A fragmented portrait in expressive lines.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (13).jpg" alt="Art 13" loading="lazy">
+            <div class="caption">Watercolor On Paper- Farmers Harvesting Rice in the primitive Bangladeshi Way</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (14).jpg" alt="Art 14" loading="lazy">
+            <div class="caption">Graphite on paper – A delicate sketch of an angelic figure.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (15).jpg" alt="Art 15" loading="lazy">
+            <div class="caption">Graphite on paper – A Broken Statue</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (16).jpg" alt="Art 16" loading="lazy">
+            <div class="caption">Graphite on paper – A Nude Figure of A woman in Varat-natiyam Dance Position.</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (17).jpg" alt="Art 17" loading="lazy">
+            <div class="caption">Charcoal on paper – Portrait: Franz Kafka</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Gallery/Images/work_1 (9).jpg" alt="Art 18" loading="lazy">
+            <div class="caption">Watercolor on paper- A study of a human hand</div>
         </div>
     </div>
 
-    <div class="main">
-        <h1 class="title">Ourab</h1>
-        <h1 class="museum">Azad</h1>
-        <p class="subtitle">A Jack of all trades;<br>You will get <br>a perfect idea of me  while navigating <br> through this website</p>
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
     </div>
 
-    <div class="footer">
-        <p>&copy; High Voltage. All Rights Reserved.</p>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>
