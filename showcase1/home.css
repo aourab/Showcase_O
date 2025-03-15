@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbf5ec;
+}
+
+header {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: left;
+    padding: 4px;
+    background-color: #202132;
+    color: #fff;
+}
+
+.topnav {
+  
+    background-color: #202132;
+    overflow: hidden;
+  }
+
+  .topnav h1{
+    margin-left: 6%;
+  }
+  
+ 
+  .topnav a {
+    margin-top: 17px;
+    float: right;
+    margin-right: 20px;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 21px;
+  }
+  
+  
+  .topnav a:hover {
+    
+    background-color: hsl(209, 20%, 57%);
+    color: black;
+    border-radius: 15px;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    border-radius: 15px;
+    background-color: #45455f;
+    color: rgb(255, 255, 255);
+  }
+
+  .img_container{
+    position:relative;
+    float: right;
+    margin-top: 2%;
+    margin-right: 14%;
+    width: 400px;
+    height: 800px;
+  }
+
+  .img1{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    z-index: 2; 
+  }
+
+  .img2{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    opacity: 1; 
+    z-index: 1; 
+  }
+
+
+.title {
+    margin-top: 20%;
+    margin-left: 6%;
+    font-size: 35px;
+    color: #3e405f;
+    font-family: 'Brush Script MT', cursive;
+  }
+
+  .bottom_box {
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #45455f;
+    margin-left: 6%;
+    position: relative;
+    max-width: fit-content;
+    max-height: 20%;
+  }
+  .title_img{
+    margin-top: 5%;
+    margin-left: 6%;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 13%;
+  }
+
+
+
+
+  /* Footer Styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #191922;
+  color: #fff;
+  padding: 20px;
+  border-top: 1px solid #444;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-links li {
+  margin: 0 20px;
+}
+
+.footer-links a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
